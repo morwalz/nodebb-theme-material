@@ -207,13 +207,13 @@
             <!-- ELSE -->
             <!-- IF allowRegistration -->
             <li class="hidden-xs">
-                <a href="{relative_path}/auth/examsbook">
+                <a target="_top" rel="nofollow" href="{relative_path}/auth/examsbook">
 					<span>[[global:register]]</span>
 				</a>
             </li>
             <!-- ENDIF allowRegistration -->
             <li class="hidden-xs">
-            	<a href="{relative_path}/auth/examsbook">
+            	<a target="_top" rel="nofollow" href="{relative_path}/auth/examsbook">
 					<span>[[global:login]]</span>
 				</a>
             </li>
@@ -238,13 +238,13 @@
                     <!-- IF !config.loggedIn -->
                     <!-- IF allowRegistration -->
                     <li class="visible-xs">
-                        <a href="{relative_path}/auth/examsbook">
+                        <a target="_top" rel="nofollow" href="{relative_path}/auth/examsbook">
                             <i class="fa fa-pencil fa-fw"></i> [[global:register]]
                         </a>
                     </li>
                     <!-- ENDIF allowRegistration -->
                     <li class="visible-xs">
-                        <a href="{relative_path}/auth/examsbook">
+                        <a target="_top" rel="nofollow" href="{relative_path}/auth/examsbook">
                             <i class="fa fa-sign-in fa-fw"></i> [[global:login]]
                         </a>
                     </li>
